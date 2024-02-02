@@ -1,0 +1,53 @@
+.frame-1,
+.frame-1 * {
+  box-sizing: border-box;
+}
+.frame-1 {
+  background: #3d3939;
+  border-radius: 10px;
+  width: 288px;
+  height: 131px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-2 {
+  background: #696666;
+  border-radius: 5px;
+  width: 257px;
+  height: 12px;
+  position: absolute;
+  left: 15px;
+  top: 75px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+  overflow: hidden;
+}
+.frame-3 {
+  background: #514a4a;
+  border-radius: 10px;
+  width: 107px;
+  height: 15px;
+  position: absolute;
+  left: 15px;
+  top: 81px;
+  overflow: hidden;
+}
+.frame-4 {
+  background: #5e5a5a;
+  border-radius: 10px;
+  width: 113px;
+  height: 15px;
+  position: absolute;
+  left: 159px;
+  top: 81px;
+  overflow: hidden;
+}
+.ellipse-1 {
+  background: #777171;
+  border-radius: 50%;
+  width: 43px;
+  height: 39px;
+  position: absolute;
+  left: 25px;
+  top: 9px;
+}
